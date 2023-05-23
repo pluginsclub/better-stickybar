@@ -1,0 +1,12 @@
+#sticky-bar, .sticky-bar-title, .sticky-bar-comments, .dashicons-admin-comments, .sticky-bar-navigation a {
+  color: #F5F5F5;
+}
+
+#sticky-bar {
+    background-color: black;
+}
+
+.sticky-bar-popup {
+    background-color: black!important;
+    color: #F5F5F5;
+}

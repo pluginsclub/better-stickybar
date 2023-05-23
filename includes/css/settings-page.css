@@ -1,0 +1,507 @@
+#update-nag, .update-nag {display:none!important;}
+
+
+.logo{
+    color: #1A245B; text-decoration: none;
+}
+
+/* Hide pluginsclub-cpanel-header-title-nav on mobile and tablets */
+@media (max-width: 1100px) {
+  #pluginsclub-cpanel-header-title-nav{
+    display: none!important;
+  }
+}
+
+#wpcontent {
+  padding-left: 0!important;
+  position: relative;
+}
+
+.pluginsclub-cpanel-hide {
+  display: none;
+}
+
+#pluginsclub-cpanel-admin-wrap .notice {
+  margin: 20px;
+}
+
+.lity-image .lity-content img {
+  margin: 0 auto;
+  max-width: 1200px !important;
+}
+@media (max-width: 1200px) {
+  .lity-image .lity-content img {
+    width: 80% !important;
+  }
+}
+
+#pluginsclub-cpanel-header {
+  background: #FFFFFF;
+}
+#pluginsclub-cpanel-header-title {
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  display: flex;
+  font-size: 14px;
+  margin: 0 0 20px 0;
+  padding: 0 20px;
+  min-height: 65px!important;
+}
+@media (max-width: 600px) {
+  #pluginsclub-cpanel-header-title {
+    display: block;
+    padding-top: 20px;
+  }
+}
+#pluginsclub-cpanel-header-title-image a {
+  display: block;
+  line-height: 0;
+}
+#pluginsclub-cpanel-header-title-image a:focus {
+  box-shadow: none;
+  outline: none;
+}
+#pluginsclub-cpanel-header-title-image-sep {
+  display: flex;
+  margin: 0 15px;
+}
+@media (max-width: 600px) {
+  #pluginsclub-cpanel-header-title-image-sep {
+    display: none;
+  }
+}
+#pluginsclub-cpanel-header-title .pluginsclub-cpanel-header-nav-item {
+  border-bottom: 4px solid #fff;
+  margin-right: 20px;
+}
+#pluginsclub-cpanel-header-title .pluginsclub-cpanel-header-nav-item:hover {
+  border-color: #a7aaad;
+}
+#pluginsclub-cpanel-header-title .pluginsclub-cpanel-header-nav-item.active {
+  border-color: green;
+}
+#pluginsclub-cpanel-header-title .pluginsclub-cpanel-header-nav-item.active:hover {
+  border-color: green;
+}
+#pluginsclub-cpanel-header-title .pluginsclub-cpanel-header-nav-item.active a.tab {
+  color: #1A245B;
+}
+#pluginsclub-cpanel-header-title a.tab {
+  box-shadow: none;
+  color: rgba(26, 36, 91, 0.65);
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: -4px;
+  padding: 23px 0;
+  text-decoration: none;
+}
+#pluginsclub-cpanel-header-title-nav {
+  display: flex;
+}
+#pluginsclub-cpanel-header-title a.action {
+  color: #fff;
+  font-weight: 600;
+  margin: 14px 0 14px 10px;
+  line-height: 28px;
+  min-height: 30px;
+  vertical-align: top;
+}
+@media (max-width: 600px) {
+  #pluginsclub-cpanel-header-title a.action {
+    margin-left: 0;
+  }
+}
+#pluginsclub-cpanel-header-title .page-title {
+  background-color: #fff;
+  display: inline-block;
+  font-size: 23px;
+  margin: 0;
+  padding: 20px 20px 20px 0;
+}
+
+#pluginsclub-cpanel {
+  font-size: 14px;
+}
+#pluginsclub-cpanel #setting-error-settings_updated {
+  margin-top: 30px;
+}
+#pluginsclub-cpanel-form {
+  margin-top: 30px;
+  padding: 0 20px;
+}
+#pluginsclub-cpanel-form h2 {
+  color: #1E2327;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+#pluginsclub-cpanel-form p {
+  color: #50575E;
+  font-size: 14px;
+  font-weight: 400;
+}
+#pluginsclub-cpanel-form p.submit {
+  margin-bottom: 0;
+  margin-top: 30px;
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+#pluginsclub-cpanel-form p.submit #submit {
+  border-width: 0;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  padding: 12px 16px;
+}
+#pluginsclub-cpanel-form table {
+  margin-top: 17.5px;
+}
+#pluginsclub-cpanel-form table td {
+  padding: 17.5px 10px;
+}
+@media (max-width: 768px) {
+  #pluginsclub-cpanel-form table td {
+    padding: 10px;
+  }
+}
+#pluginsclub-cpanel-form table th {
+  color: #32373B;
+  font-size: 14px;
+  font-weight: 600;
+  vertical-align: middle;
+}
+@media (max-width: 768px) {
+  #pluginsclub-cpanel-form table th {
+    padding: 10px;
+  }
+}
+#pluginsclub-cpanel-form table input {
+  border-color: #8b8f93;
+  line-height: 15px;
+  padding: 8px 12px;
+}
+#pluginsclub-cpanel-form table input:focus {
+  border-color: #1a245b;
+  box-shadow: 0 0 0 1px #1a245b;
+}
+#pluginsclub-cpanel-form table .pluginsclub-cpanel-form-setting-field-checkbox-toggle {
+  margin-top: 5px;
+}
+#pluginsclub-cpanel-form table .pluginsclub-cpanel-form-setting-field-checkbox-toggle label {
+  display: inline-block;
+  vertical-align: middle;
+}
+#pluginsclub-cpanel-form table .pluginsclub-cpanel-form-setting-field-checkbox-toggle input[type=checkbox] {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  top: auto;
+  white-space: nowrap;
+  width: 1px;
+}
+#pluginsclub-cpanel-form table .pluginsclub-cpanel-form-setting-field-checkbox-toggle input[type=checkbox]:checked + .pluginsclub-cpanel-form-setting-toggle-switch {
+  background-color: #00A32A;
+}
+#pluginsclub-cpanel-form table .pluginsclub-cpanel-form-setting-field-checkbox-toggle input[type=checkbox]:checked + .pluginsclub-cpanel-form-setting-toggle-switch:before {
+  -webkit-transform: translateX(16px);
+  -ms-transform: translateX(16px);
+  transform: translateX(16px);
+}
+#pluginsclub-cpanel-form table .pluginsclub-cpanel-form-setting-field-checkbox-toggle input[type=checkbox]:disabled:checked:hover + .pluginsclub-cpanel-form-setting-toggle-switch, #pluginsclub-cpanel-form table .pluginsclub-cpanel-form-setting-field-checkbox-toggle input[type=checkbox]:disabled:not(:checked):hover + .pluginsclub-cpanel-form-setting-toggle-switch {
+  box-shadow: none;
+}
+#pluginsclub-cpanel-form table .pluginsclub-cpanel-form-setting-field-checkbox-toggle input[type=checkbox]:disabled:not(:checked):hover + .pluginsclub-cpanel-form-setting-toggle-switch {
+  background-color: #ddd;
+}
+#pluginsclub-cpanel-form table .pluginsclub-cpanel-form-setting-field-checkbox-toggle input[type=checkbox]:disabled + .pluginsclub-cpanel-form-setting-toggle-switch {
+  background-color: #ddd;
+  cursor: default;
+}
+#pluginsclub-cpanel-form table .pluginsclub-cpanel-form-setting-field-checkbox-toggle input[type=checkbox]:disabled:checked + .pluginsclub-cpanel-form-setting-toggle-switch {
+  background-color: #24ff5c;
+  cursor: default;
+}
+#pluginsclub-cpanel-form table .pluginsclub-cpanel-form-setting-field-checkbox-toggle input[type=checkbox]:checked + .pluginsclub-cpanel-form-setting-toggle-switch + .pluginsclub-cpanel-form-setting-toggle-checked-label {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+}
+#pluginsclub-cpanel-form table .pluginsclub-cpanel-form-setting-field-checkbox-toggle input[type=checkbox]:checked + .pluginsclub-cpanel-form-setting-toggle-switch + .pluginsclub-cpanel-form-setting-toggle-checked-label + .pluginsclub-cpanel-form-setting-toggle-unchecked-label {
+  display: none;
+}
+#pluginsclub-cpanel-form table .pluginsclub-cpanel-form-setting-field-checkbox-toggle input[type=checkbox]:disabled + .pluginsclub-cpanel-form-setting-toggle-switch + .pluginsclub-cpanel-form-setting-toggle-checked-label, #pluginsclub-cpanel-form table .pluginsclub-cpanel-form-setting-field-checkbox-toggle input[type=checkbox]:disabled + .pluginsclub-cpanel-form-setting-toggle-switch + .pluginsclub-cpanel-form-setting-toggle-unchecked-label {
+  color: #aaaaaa;
+}
+#pluginsclub-cpanel-form table .pluginsclub-cpanel-form-setting-field-checkbox-toggle input[type=checkbox]:checked:hover + .pluginsclub-cpanel-form-setting-toggle-switch, #pluginsclub-cpanel-form table .pluginsclub-cpanel-form-setting-field-checkbox-toggle input[type=checkbox]:checked:focus + .pluginsclub-cpanel-form-setting-toggle-switch {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 3px #00A32A;
+}
+#pluginsclub-cpanel-form table .pluginsclub-cpanel-form-setting-field-checkbox-toggle input[type=checkbox]:not(:checked):hover + .pluginsclub-cpanel-form-setting-toggle-switch, #pluginsclub-cpanel-form table .pluginsclub-cpanel-form-setting-field-checkbox-toggle input[type=checkbox]:not(:checked):focus + .pluginsclub-cpanel-form-setting-toggle-switch {
+  background-color: #999;
+  box-shadow: 0 0 0 1px #fff, 0 0 0 3px #999;
+}
+#pluginsclub-cpanel-form table .pluginsclub-cpanel-form-setting-field-checkbox-toggle .pluginsclub-cpanel-form-setting-toggle-unchecked-label,
+#pluginsclub-cpanel-form table .pluginsclub-cpanel-form-setting-field-checkbox-toggle .pluginsclub-cpanel-form-setting-toggle-checked-label {
+  color: #50575E;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+#pluginsclub-cpanel-form table .pluginsclub-cpanel-form-setting-field-checkbox-toggle .pluginsclub-cpanel-form-setting-toggle-checked-label {
+  display: none;
+}
+#pluginsclub-cpanel-form table .pluginsclub-cpanel-form-setting-field-checkbox-toggle .pluginsclub-cpanel-form-setting-toggle-switch {
+  background-color: #ccc;
+  border-radius: 15px;
+  cursor: pointer;
+  display: inline-block;
+  height: 20px;
+  margin: -1px 5px 0 0;
+  position: relative;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  vertical-align: middle;
+  width: 36px;
+}
+#pluginsclub-cpanel-form table .pluginsclub-cpanel-form-setting-field-checkbox-toggle .pluginsclub-cpanel-form-setting-toggle-switch:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  top: 2px;
+  background-color: #fff;
+  border-radius: 50%;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+#pluginsclub-cpanel-form table .desc {
+  color: #50575E;
+  font-style: italic;
+  margin: 10px 0 0;
+}
+#pluginsclub-cpanel-form #submit {
+  background-color: #1A245B;
+}
+#pluginsclub-cpanel-form #submit:focus, #pluginsclub-cpanel-form #submit:hover {
+  background-color: #09123f;
+}
+#pluginsclub-cpanel-form #submit:focus {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 3px #09123f;
+}
+#pluginsclub-cpanel .pluginsclub-cpanel-sep {
+  border-bottom: 1px solid #DCDCDE;
+  margin-top: 30px;
+}
+#pluginsclub-cpanel .pluginsclub-cpanel-sep.pluginsclub-cpanel-sep-last {
+  margin-top: 17.5px;
+}
+
+.pluginsclub-cpanel-product-education {
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  color: #50575E;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 10px 20px 20px;
+  position: relative;
+}
+.pluginsclub-cpanel-product-education-dismiss {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+.pluginsclub-cpanel-product-education-dismiss button {
+  background: none;
+  border: none;
+  color: #A6A6A6;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+.pluginsclub-cpanel-product-education-dismiss button .dashicons {
+  color: #a7aaad;
+  width: 16px;
+  height: 16px;
+  font-size: 16px;
+}
+.pluginsclub-cpanel-product-education-dismiss button .dashicons:hover {
+  color: #d63638;
+}
+.pluginsclub-cpanel-product-education-content {
+  padding: 20px;
+}
+.pluginsclub-cpanel-product-education-content a.pluginsclub-cpanel-product-education-btn {
+  background: #056AAB;
+  border-radius: 3px;
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 14px;
+  padding: 7px 10px;
+  text-decoration: none;
+}
+.pluginsclub-cpanel-product-education-content a.pluginsclub-cpanel-product-education-btn:hover {
+  color: #FFFFFF;
+}
+.pluginsclub-cpanel-product-education-content p {
+  color: #646970;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 10px 0;
+}
+.pluginsclub-cpanel-product-education-content p a {
+  color: #1A245B;
+}
+.pluginsclub-cpanel-product-education-content p a:hover, .pluginsclub-cpanel-product-education-content p a:focus {
+  color: #056AAB;
+}
+.pluginsclub-cpanel-product-education-content p.pluginsclub-cpanel-product-education-bonus {
+  margin-bottom: 20px;
+}
+.pluginsclub-cpanel-product-education-content p.pluginsclub-cpanel-product-education-bonus strong {
+  font-weight: 600;
+}
+.pluginsclub-cpanel-product-education-content p.pluginsclub-cpanel-product-education-bonus span {
+  color: #2E876A;
+  font-weight: 600;
+}
+.pluginsclub-cpanel-product-education ul {
+  color: #646970;
+}
+.pluginsclub-cpanel-product-education h3 {
+  color: #3C434A;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+.pluginsclub-cpanel-product-education h3.pluginsclub-cpanel-product-education-feature-title {
+  color: #50575E;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+#pluginsclub-cpanel-product-education-admin_settings_bottom {
+  background: #FFFFFF url("../images/prod-edu/product-education-bg.png") no-repeat right bottom;
+  background-size: 401px 119px;
+  /* @2x Images (Pixel Ratio of 1.25+) */
+}
+@media only screen and (-o-min-device-pixel-ratio: 5/4), only screen and (-webkit-min-device-pixel-ratio: 1.25), only screen and (min-device-pixel-ratio: 1.25), only screen and (min-resolution: 1.25dppx) {
+  #pluginsclub-cpanel-product-education-admin_settings_bottom {
+    background-image: url("../images/prod-edu/product-education-bg@2x.png");
+  }
+}
+#pluginsclub-cpanel-product-education-admin_settings_bottom .pluginsclub-cpanel-product-education-images-row {
+  border-bottom: 1px solid #E4E4E4;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 20px 0 16px;
+  padding-bottom: 20px;
+}
+#pluginsclub-cpanel-product-education-admin_settings_bottom .pluginsclub-cpanel-product-education-images-row-image {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 370px;
+}
+#pluginsclub-cpanel-product-education-admin_settings_bottom .pluginsclub-cpanel-product-education-images-row-image a {
+  border: 5px solid #DCDCDE;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  position: relative;
+}
+#pluginsclub-cpanel-product-education-admin_settings_bottom .pluginsclub-cpanel-product-education-images-row-image a:hover::after {
+  opacity: 1;
+}
+#pluginsclub-cpanel-product-education-admin_settings_bottom .pluginsclub-cpanel-product-education-images-row-image a::after {
+  background: rgba(68, 68, 68, 0.15) url("../images/zoom.svg") no-repeat center;
+  background-size: 50px;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.3s;
+  width: 100%;
+}
+#pluginsclub-cpanel-product-education-admin_settings_bottom .pluginsclub-cpanel-product-education-images-row-image img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+#pluginsclub-cpanel-product-education-admin_settings_bottom .benefits {
+  display: flex;
+  font-size: 13px;
+  gap: 60px;
+  justify-content: flex-start;
+  line-height: 20px;
+  margin-bottom: 16px;
+  max-width: 1200px;
+}
+@media (max-width: 782px) {
+  #pluginsclub-cpanel-product-education-admin_settings_bottom .benefits {
+    display: block;
+  }
+}
+#pluginsclub-cpanel-product-education-admin_settings_bottom .benefits ul {
+  margin: 0;
+}
+#pluginsclub-cpanel-product-education-admin_settings_bottom .benefits ul li {
+  margin: 0;
+  padding: 0 0 2px 16px;
+  position: relative;
+}
+@media (max-width: 600px) {
+  #pluginsclub-cpanel-product-education-admin_settings_bottom .benefits ul li {
+    margin: 5px 0;
+  }
+}
+#pluginsclub-cpanel-product-education-admin_settings_bottom .benefits ul li::before {
+  left: 0;
+  position: absolute;
+  top: -1px;
+}
+#pluginsclub-cpanel-product-education-admin_settings_bottom .benefits ul li.white-glove {
+  font-weight: 600;
+}
+#pluginsclub-cpanel-product-education-admin_settings_bottom .benefits ul li.arrow-right {
+  background: transparent url("../images/arrow-right-plain-icon.svg") no-repeat left 3px;
+  background-size: 12px;
+  padding-left: 18px;
+  margin-left: 17px;
+}
+#pluginsclub-cpanel-product-education-admin_settings_bottom .benefits ul li.plus {
+  background: transparent url("../images/plus-icon.svg") no-repeat left 3px;
+  background-size: 12px;
+  padding-left: 18px;
+}
+#pluginsclub-cpanel-product-education-admin_settings_bottom .pluginsclub-cpanel-product-education-btn {
+  background: #1A245B;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 600;
+  line-height: 16px;
+  padding: 12px 16px;
+}
+#pluginsclub-cpanel-product-education-admin_settings_bottom .pluginsclub-cpanel-product-education-btn:hover, #pluginsclub-cpanel-product-education-admin_settings_bottom .pluginsclub-cpanel-product-education-btn:focus {
+  background-color: #056AAB;
+}
+#pluginsclub-cpanel-product-education-admin_settings_bottom .pluginsclub-cpanel-product-education-btn:focus {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 3px #056AAB;
+}
+
+
+
+.button-icon {
+    vertical-align:middle;
+}
