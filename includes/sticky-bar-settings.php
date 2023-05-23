@@ -67,7 +67,7 @@ wp_redirect(add_query_arg('settings-updated', 'true', admin_url('admin.php?page=
 					<div id="pluginsclub-cpanel-header">
 			<div id="pluginsclub-cpanel-header-title">
 				<div id="pluginsclub-cpanel-header-title-image">
-<h1><a href="http://plugins.club/" target="_blank" class="logo"><img src="<?php echo plugins_url('images/pluginsclub_logo_black.png', __FILE__) ?>" style="height:27px"></a></h1></div>
+<h1><a href="http://plugins.club/" target="_blank" class="logo"><img src="<?php echo plugins_url('img/pluginsclub_logo_black.png', __FILE__) ?>" style="height:27px"></a></h1></div>
 				<div id="pluginsclub-cpanel-header-title-image-sep">
 				</div>
 <div id="pluginsclub-cpanel-header-title-nav">
